@@ -153,17 +153,3 @@ set THINGSPEAK_API_KEY=VOTRE_CLE_API
 - Broche centrale (curseur) → **A2** (Arduino)
 - Broche droite → **GND** (Arduino)
 
----
-
-## ⚠️ Remarques
-
-- Le broker public `test.mosquitto.org` peut être inaccessible sur certains réseaux universitaires → utiliser le broker local `amqtt`
-- La limite gratuite de ThingSpeak est d'une mise à jour toutes les **15 secondes**
-- La simulation Tinkercad ne disposant pas d'accès réseau, le script Python simule la lecture des capteurs avec des variations aléatoires réalistes
-
----
-
-## 📄 Licence
-
-Projet académique — Université Mohammed V, Master IAO  
-Module Internet des Objets — Pr. Hafssa BENABOUD — 2026
